@@ -10,7 +10,6 @@ namespace CMSShoppingCart.Controllers
     {
         public ActionResult Index()
         {
-            string strText = "This is text";
             return View();
         }
 
