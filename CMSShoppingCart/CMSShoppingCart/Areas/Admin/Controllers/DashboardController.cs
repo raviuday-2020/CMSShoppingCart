@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CMSShoppingCart.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,7 @@ namespace CMSShoppingCart.Areas.Admin.Controllers
 {
     public class DashboardController : Controller
     {
+        public static CMSCartEntities db;
         // GET: Admin/Dashboard
         public ActionResult Index()
         {
